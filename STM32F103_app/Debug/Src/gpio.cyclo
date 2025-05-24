@@ -1,0 +1,4 @@
+../Src/gpio.c:10:6:GPIO_Init	3
+../Src/gpio.c:29:6:GPIO_SetBit	1
+../Src/gpio.c:33:6:GPIO_ClrBit	1
+../Src/gpio.c:37:6:GPIO_GetBit	1

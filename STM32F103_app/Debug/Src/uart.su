@@ -1,0 +1,5 @@
+../Src/uart.c:12:6:Uart2_Init	8	static
+../Src/uart.c:63:6:UART2_SendChar	16	static
+../Src/uart.c:79:6:UART2_SendString	16	static
+../Src/uart.c:84:9:UART2_GetChar	16	static
+../Src/uart.c:101:9:HAL_UART_Receive	32	static

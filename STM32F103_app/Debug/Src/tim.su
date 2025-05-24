@@ -1,0 +1,4 @@
+../Src/tim.c:10:6:TIM2_Init	4	static
+../Src/tim.c:28:6:TIM2_Delay_ms	24	static
+../Src/tim.c:39:6:TIM2_CNTUP_Init	4	static
+../Src/tim.c:71:6:TIM2_PWM_Init	4	static

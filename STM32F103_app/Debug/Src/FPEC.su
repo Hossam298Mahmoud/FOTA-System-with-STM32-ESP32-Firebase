@@ -1,0 +1,5 @@
+../Src/FPEC.c:13:6:FPEC_Unlock	4	static
+../Src/FPEC.c:28:6:FPEC_lock	4	static
+../Src/FPEC.c:37:6:FPEC_PageErase	16	static
+../Src/FPEC.c:68:6:programflash	16	static
+../Src/FPEC.c:96:6:FPEC_PagesErase	24	static
