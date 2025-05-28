@@ -1,5 +1,5 @@
  # Firmware Over-The-Air (FOTA) System with STM32, Firebase, and ESP32
-![System Diagram](fota.png)
+![System Diagram](images/fota.png)
 This project implements a secure FOTA (Firmware Over-The-Air) update system for STM32 microcontrollers using an ESP32 module. Firmware is stored on Firebase, encrypted using AES, and transferred to an external STM32 ECU over UART.
 
 ## Over-the-air updates
@@ -19,8 +19,23 @@ Firmware over-the-air updates provide multiple benefits both to users and device
 
 ## FOTA Implementation
 ### Connection between Server and ECU
+
 I used ESP32 as telematic unit for connection between server(Firebase) and ECU(STM32F103 Blue Pill)
+
+![System Diagram](images/server.png)
 ### Graphical User Interface
-![System Diagram](images/gui.png)
+
 KivyMD-based GUI allows uploading firmware to Firebase to make it easier for the user to upload updates to firebase and the relate information of the update.
+
+![System Diagram](images/gui.PNG)
+
+## How It Works
+
+1. User uploads encrypted .bin file to Firebase.
+2. ESP32 connects to Firebase to check for new firmware updates.
+3. Secure update: Encrypted .bin firmware is downloaded then Decrypted (Using AES-256-bit Encryption and Decryption) and sent to the STM32 over UART.
+4. STM32F103 (Blue Pill) decides whether to accept the update or continue running the current application.
+5. Custom Bootloader receives and flashes the firmware.
+6. GUI built with KivyMD lets you upload the .bin file to Firebase with a user-friendly interface.
+7. LCD on STM32 displays status updates during the bootloading process
 
