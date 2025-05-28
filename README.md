@@ -18,6 +18,21 @@ Firmware over-the-air updates provide multiple benefits both to users and device
 4. Better outcomes for manufacturers: Rather than recalling faulty devices, manufacturers can deploy firmware over-the-air updates to fix devices in the field. They can also test updates on a subset of users who have opted in, to make sure that updates are reliable before wider deployment, improving reliability and brand perception.
 
 ## FOTA Implementation
+
+### Hardware Used
+1. STM32F103
+![STM32F103C8T6 - Blue Pill](images/stm32.PNG)
+
+2. ESP32
+![ESP32 Development Board](images/esp32.PNG)
+
+
+### Software Tools
+1. PlatformIO or Arduino IDE (for ESP32)
+2. STM32CubeIDE (for STM32 firmware)
+3. Firebase Console
+4. Python KivyMD (for GUI upload)
+
 ### Connection between Server and ECU
 
 I used ESP32 as telematic unit for connection between server(Firebase) and ECU(STM32F103 Blue Pill)
@@ -38,4 +53,9 @@ KivyMD-based GUI allows uploading firmware to Firebase to make it easier for the
 5. Custom Bootloader receives and flashes the firmware.
 6. GUI built with KivyMD lets you upload the .bin file to Firebase with a user-friendly interface.
 7. LCD on STM32 displays status updates during the bootloading process
+
+## Hardware Structure
+
+
+
 
