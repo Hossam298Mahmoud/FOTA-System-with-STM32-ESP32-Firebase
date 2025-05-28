@@ -54,10 +54,9 @@ KivyMD-based GUI allows uploading firmware to Firebase to make it easier for the
 6. GUI built with KivyMD lets you upload the .bin file to Firebase with a user-friendly interface.
 7. LCD on STM32 displays status updates during the bootloading process
 
- ## Demo Video
+## Demo Video
 ▶ Watch OTA in Action
-  https://drive.google.com/file/d/17GTPagh-MRnu9xNd5_EWC_hXYwEgB1cv/view?usp=sharing
-
+  https://drive.google.com/file/d/1qW13902bDqihUqzlxZMMlfLW43RZjsd8/view?usp=drive_link
 
 
 
