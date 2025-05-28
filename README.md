@@ -55,9 +55,8 @@ KivyMD-based GUI allows uploading firmware to Firebase to make it easier for the
 7. LCD on STM32 displays status updates during the bootloading process
 
  ## Demo Video
-(Optional YouTube or local video link)
 ▶ Watch OTA in Action
-https://drive.google.com/file/d/17GTPagh-MRnu9xNd5_EWC_hXYwEgB1cv/view?usp=sharing
+  https://drive.google.com/file/d/17GTPagh-MRnu9xNd5_EWC_hXYwEgB1cv/view?usp=sharing
 
 
 
