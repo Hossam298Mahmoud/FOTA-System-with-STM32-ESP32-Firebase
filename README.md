@@ -21,10 +21,10 @@ Firmware over-the-air updates provide multiple benefits both to users and device
 
 ### Hardware Used
 1. STM32F103
-![STM32F103C8T6 - Blue Pill](images/stm32.PNG)
+![STM32F103C8T6 - Blue Pill](images/stm32.png)
 
 2. ESP32
-![ESP32 Development Board](images/esp32.PNG)
+![ESP32 Development Board](images/esp32.png)
 
 
 ### Software Tools
