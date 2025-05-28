@@ -8,14 +8,14 @@
 #include <EEPROM.h>
 
 // Your WiFi credentials
-#define WIFI_SSID  "Vodafone555"
-#define WIFI_PASSWORD "Vodafone@1999"
-const char* file_url = "http://esp32.unaux.com//update.txt";  // Replace with your actual file URL
+#define WIFI_SSID  ""
+#define WIFI_PASSWORD ""
+const char* file_url = "";  // Replace with your actual file URL
 /*********************************Firebase*******************************************/
 // Your Firebase Project Web API Key
-#define API_KEY "AIzaSyB11GQAtSKLsPvl_wFMU02yyQPs54fNgjU"
+#define API_KEY ""
 // Your Firebase Realtime database URL
-#define DATABASE_URL "https://fota-8e8d6-default-rtdb.firebaseio.com"
+#define DATABASE_URL ""
 
 //Define Firebase Data object
 FirebaseData fbdo;
