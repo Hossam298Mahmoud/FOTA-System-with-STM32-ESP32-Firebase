@@ -57,6 +57,7 @@ KivyMD-based GUI allows uploading firmware to Firebase to make it easier for the
  ## Demo Video
 (Optional YouTube or local video link)
 ▶ Watch OTA in Action
+https://drive.google.com/file/d/17GTPagh-MRnu9xNd5_EWC_hXYwEgB1cv/view?usp=sharing
 
 
 
